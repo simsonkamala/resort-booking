@@ -1,0 +1,43 @@
+/* .card > img {
+
+    height: 200px;
+    object-fit: cover;
+}
+
+.scrooly{
+    overflow-x: auto;
+    gap: 9px
+}
+
+.hovers{
+    box-shadow: 0px 0px 15px rgba(15, 15, 15, 0.675);
+}
+
+.hovers:hover{
+    transform:  scale(1.06);
+    box-shadow: 0px 0px 30px rgba(15, 15, 15, 0.803);
+    transition: ease-in-out;
+} */
+
+
+.text-center{
+    box-shadow: 1px 0px rgba(146, 144, 144, 0.441);
+}
+
+.roomcontainer{
+    z-index: 3;
+    margin-top: -50px; 
+}
+
+.images-body{
+    width: 490px;
+    box-shadow: 0px 0px 40px rgb(78, 77, 77);
+}
+
+
+/* allroom css style */
+
+.card > img{
+    height : 240px;
+    object-fit : cover;
+}

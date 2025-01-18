@@ -1,0 +1,65 @@
+.image > img{
+    height: 460px;
+    filter: brightness(40%);  
+    width: 100%;
+}
+.image{  z-index: -1; }
+
+.big-heading{
+    /* position: absolute; */
+    margin-top: -280px;
+    color: white;
+    z-index: 1;
+}
+.small-heading{
+    position: absolute;
+    margin-top: -217px;
+    color: white;
+}
+.para1{
+    position: absolute;
+    margin-top: -150px;
+    font-weight: 500;
+    color: white;
+}
+.para2{
+    position: absolute;
+    margin-top: -125px;
+    font-weight: 500;
+    color: white;
+}
+
+/* The below code is for lazy load fallback 18, 18, 18, 0.183*/
+
+.loading-column{
+    height: 400px;
+    background-color: rgba(127, 124, 124, 0.299);
+    border-radius: 48px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    margin: 20px;
+    margin-top: 159px;
+}  
+.loading-column > .box1{
+    width: 50px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.442);
+    box-shadow: 0px 0px 70px rgb(255, 255, 255);
+    margin-top: 76px;
+    /* margin-left: -12px; */
+}
+
+/* the below for the banner carosel */
+
+.blurs{
+    width: 80px;
+    height : 460px;
+    background-color: rgba(255, 255, 255, 0.442);
+    box-shadow: 0px 0px 80px rgb(255, 255, 255);
+}
+
+.Mainblurs{
+
+    height: 460px;
+    background-color: rgba(127, 124, 124, 0.299);
+
+}
